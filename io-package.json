@@ -1,0 +1,64 @@
+{
+    "common": {
+        "name": "test",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+            }
+        },
+        "title": "test (JavaScript)",
+        "titleLang": {
+            "en": "Test (JavaScript)",
+            "de": "Test (JavaScript)"
+        },
+        "desc": {
+            "en": "Nur ein Test",
+            "de": "Nur ein Test"
+        },
+        "authors": [
+            "Author <author@mail.com>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "template",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "template.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/HappyTeaFriend/ioBroker.test/master/admin/template.png",
+        "readme": "https://github.com/HappyTeaFriend/ioBroker.test/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "general",
+        "compact": true,
+        "materialize": true,
+        "materializeTab": true,
+        "adminTab": {
+            "singleton": true,
+            "name": {
+                "en": "Test (JavaScript)",
+                "de": "Test (JavaScript)"
+            },
+            "link": "",
+            "fa-icon": "info"
+        },
+        "supportCustoms": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
